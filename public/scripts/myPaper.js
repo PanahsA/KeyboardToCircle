@@ -1,4 +1,4 @@
-var header=document.getElementById("header");
+var header=		document.getElementById("header");
 var circleArray=[];
 
 function onKeyDown(event) {
