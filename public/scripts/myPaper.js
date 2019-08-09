@@ -28,12 +28,12 @@ function onFrame(event) {
 // LOGIC
 //MAKE SOUND
 function makeSound(event){
-    if(event.key=="a"){ //paperjs
+     
         var sound = new Howl({
             src: ['sounds/bubbles.mp3']
         });
         sound.play();
-    }
+   
 }
 
 function makeCircle () {
